@@ -1,7 +1,7 @@
-Blender Scenes
+#Blender Scenes
 
 
-Structure:
+##Structure:
 Each scene have the following structure:
 
 1. 'assets': Contains Blender objects (.blend files) used in scene creation.
@@ -15,7 +15,7 @@ Each scene have the following structure:
 
 I added comments for each first script in each scene
 
-Instructions:
+##Instructions:
 
 To generate the images customize the directory path in the "scripts","json_files" folders and in the SBATCH files.
 You can either execute the "allscenes.sbatch" file, which combines all the sbatch files, or run each sbatch file individually.
